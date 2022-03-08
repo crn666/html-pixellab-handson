@@ -1,0 +1,24 @@
+.my-first-list a {
+  display: block;
+}
+
+.my-first-list a::before {
+  content: '';
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  background-color: purple;
+  transform: rotate(45deg);
+  margin-right: 16px;
+}
+
+.my-first-list a::after {
+  content: '';
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  background-color: red;
+  border-radius: 50%;
+  top: 1px;
+  margin-left: 8px;
+}
