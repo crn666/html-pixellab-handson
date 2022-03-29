@@ -14,6 +14,10 @@
   <title>Monochrome</title>
   <link
     rel="stylesheet"
+    href="css/style.css"
+  >
+  <link
+    rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
     integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
     crossorigin="anonymous"
@@ -23,7 +27,7 @@
 
 <body>
 
-  <header class="header">
+  <header class="header container">
     <section class="header-top">
       <section class="header-customer-support">
         <ul>
@@ -94,7 +98,7 @@
             <input
               type="search"
               name="searchbar"
-              id="searcbar"
+              id="searchbar"
               placeholder="Search"
             >
           </div>
@@ -184,11 +188,11 @@
     </section>
     <!-- /.header-bottom -->
   </header>
-  <!-- /.header -->
+  <!-- /.header container -->
 
   <main class="content">
     <section class="main-content">
-      <section class="home-catalog-preview-new-products">
+      <section class="home-catalog-preview">
         <header>
           <h1>New Stuff</h1>
         </header>
@@ -355,9 +359,10 @@
         </section>
         <!-- /.product-tiles -->
       </section>
-      <!-- /.home-catalog-preview-new-products -->
+      <!-- /.home-catalog-preview -->
 
-      <section class="home-catalog-preview-top-products">
+      <section class="home-catalog-preview">
+        <div class="line"></div>
         <header>
           <h1>Most Loved</h1>
         </header>
@@ -524,10 +529,10 @@
         </section>
         <!-- /.product-tiles -->
       </section>
-      <!-- /.home-catalog-preview-top-products -->
+      <!-- /.home-catalog-preview -->
 
-      <section class="about-us">
-        <div class="monochrome-entrepreneurs-image">
+      <section class="home-about-us">
+        <div class="home-about-image">
           <a
             href=""
             title="Watches for entrepreneurs"
@@ -539,7 +544,7 @@
           </a>
         </div>
 
-        <div class="monochrome-entrepreneurs-text">
+        <div class="home-about-text">
           <header>
             <h1>Watches for entrepreneurs</h1>
 
@@ -559,9 +564,10 @@
           </header>
         </div>
       </section>
-      <!-- /.about-us -->
+      <!-- /.home-about-us -->
 
-      <secton class="home-catalog-preview-men">
+      <section class="home-catalog-preview">
+        <div class="line"></div>
         <header>
           <h1>Men's</h1>
         </header>
@@ -734,10 +740,11 @@
             title="View all"
           >view all</a>
         </footer>
-      </secton>
-      <!-- /.home-catalog-preview-men -->
+      </section>
+      <!-- /.home-catalog-preview -->
 
-      <secton class="home-catalog-preview-women">
+      <secton class="home-catalog-preview">
+        <div class="line"></div>
         <header>
           <h1>Women's</h1>
         </header>
@@ -911,13 +918,13 @@
           >view all</a>
         </footer>
       </secton>
-      <!-- /.home-catalog-preview-women -->
+      <!-- /.home-catalog-preview -->
     </section>
     <!-- /.main-content -->
   </main>
   <!-- /.content -->
 
-  <footer class="footer">
+  <footer class="footer container">
     <section class="footer-support">
       <ul>
         <li>
@@ -1015,7 +1022,7 @@
     <!-- /.footer-nav -->
 
     <section class="footer-connect">
-      <form>
+      <form class="footer-newsletter">
         <label for="email">sign up for our newsletter</label>
         <input
           type="email"
@@ -1031,7 +1038,7 @@
         >Submit</button>
       </form>
 
-      <section>
+      <section class="footer-social-media">
         <ul>
           <li>
             <a
@@ -1081,11 +1088,7 @@
     </section>
     <!-- /.footer-connect -->
   </footer>
-  <!-- /.footer -->
-
-
-
-
+  <!-- /.footer container -->
 
 </body>
 

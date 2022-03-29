@@ -1,0 +1,415 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Black.woff2') format('woff2'),
+    url('../fonts/Roboto-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-BlackItalic.woff2') format('woff2'),
+    url('../fonts/Roboto-BlackItalic.woff') format('woff');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-LightItalic.woff2') format('woff2'),
+    url('../fonts/Roboto-LightItalic.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Italic.woff2') format('woff2'),
+    url('../fonts/Roboto-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Medium.woff2') format('woff2'),
+    url('../fonts/Roboto-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-MediumItalic.woff2') format('woff2'),
+    url('../fonts/Roboto-MediumItalic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-ThinItalic.woff2') format('woff2'),
+    url('../fonts/Roboto-ThinItalic.woff') format('woff');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Regular.woff2') format('woff2'),
+    url('../fonts/Roboto-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Thin.woff2') format('woff2'),
+    url('../fonts/Roboto-Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-BoldItalic.woff2') format('woff2'),
+    url('../fonts/Roboto-BoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Bold.woff2') format('woff2'),
+    url('../fonts/Roboto-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Light.woff2') format('woff2'),
+    url('../fonts/Roboto-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', 'sans-serif';
+  font-size: 24px;
+  color: #2b2b2b;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1248px;
+  margin: 0 auto;
+}
+
+.header {
+  background: url('../images/banner.png') center center / cover no-repeat;
+  height: 250px;
+  color: #ffffff;
+  margin-bottom: 48px;
+}
+
+.header-customer-support {
+  float: left;
+}
+
+.header-customer-support li {
+  display: inline-block;
+}
+
+.header-site-controls {
+  float: right;
+  color: #2b2b2b;
+  padding-right: 320px;
+}
+
+.header-site-controls li {
+  display: inline-block;
+}
+
+.header-user-controls .header-wishlist-controls .header-cart-controls li {
+  display: inline-block;
+  padding: 25px;
+}
+
+.header-bottom .nav-main {
+  background-color: #2b2b2b;
+  position: relative;
+  text-align: center;
+  top: 200px;
+}
+
+.header-bottom .nav-main ul {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 19px;
+  font-weight: 300;
+}
+
+.header-bottom .nav-main li {
+  display: inline-block;
+  margin: 0 16px;
+}
+
+.home-about-us {
+  display: flex;
+  justify-content: center;
+  margin: 84px;
+}
+
+.home-about-image {
+  padding-right: 64px;
+}
+
+.home-about-image img {
+  width: 600px;
+  height: 600px;
+}
+
+.home-about-text h1 {
+  font-size: 40px;
+  font-weight: 300;
+  text-align: justify;
+  padding-top: 20px;
+}
+
+.home-about-text p {
+  text-align: justify;
+  font-size: 22px;
+  font-weight: lighter;
+  margin-top: 40px;
+  line-height: 1.5em;
+}
+
+.home-catalog-preview > header > h1 {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+  color: inherit;
+}
+
+.main-content > section {
+  margin-bottom: 120px;
+}
+
+.home-catalog-preview .product-tiles {
+  margin-top: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.home-catalog-preview .product-tile {
+  width: 23.672566371%;
+}
+
+.home-catalog-preview .product-tile-image {
+  position: relative;
+}
+
+.home-catalog-preview .product-tile-image img {
+  width: 100%;
+}
+
+.home-catalog-preview .product-tile-image .fa-regular {
+  top: 20px;
+  right: 20px;
+  color: #2b2b2b;
+  position: absolute;
+}
+
+.home-catalog-preview .product-tile .product-tile-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 22px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.home-catalog-preview .product-tile .product-tile-pricing {
+  text-align: center;
+  margin: 19px 0;
+  font-size: 22px;
+}
+
+.home-catalog-preview .product-tile .product-tile-pricing .price span {
+  font-weight: 300;
+}
+
+.line:after {
+  content: ' ';
+  display: block;
+  border-bottom: 1px solid #cccccc;
+}
+
+.footer {
+  margin-bottom: 48px;
+  background-color: #e8e8e8;
+  display: flex;
+  font-size: 20px;
+  color: #2b2b2b;
+  text-transform: lowercase;
+  text-align: left;
+}
+
+.footer li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: space-between;
+}
